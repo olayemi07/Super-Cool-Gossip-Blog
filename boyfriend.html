@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Friend - The Best Friend - And the Boyfriend</title>
+    <!-- Google Fonts for beautiful typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        /* Global Reset & Base Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Lora', Georgia, serif;
+            background-color: #fcf9f9;
+            color: #2c2c2c;
+            line-height: 1.8;
+            padding: 0;
+        }
+
+        /* Blog Container */
+        .blog-container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* Category/Tag */
+        .blog-category {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #d63384; /* Cherry Pink */
+            font-weight: 600;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        /* Header / Title Styles */
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 800;
+            line-height: 1.2;
+            color: #1a1a1a;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            position: relative;
+        }
+
+        /* Subtle accent line under subheadings */
+        h2::after {
+            content: '';
+            display: block;
+            width: 40px;
+            height: 3px;
+            background-color: #d63384;
+            margin-top: 8px;
+        }
+
+        /* Paragraph Styles */
+        p {
+            font-size: 1.15rem;
+            margin-bottom: 25px;
+            color: #3d3d3d;
+        }
+
+        /* First letter of the blog post */
+        p.intro::first-letter {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 3.5rem;
+            font-weight: 800;
+            float: left;
+            line-height: 1;
+            margin-right: 10px;
+            color: #d63384;
+        }
+
+        /* Highlighted text / Quotes */
+        .highlight {
+            background-color: #fff0f5;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-style: italic;
+        }
+
+        /* Bulleted Verdict List */
+        .verdict-list {
+            list-style: none;
+            padding: 20px;
+            background-color: #fff;
+            border-left: 4px solid #d63384;
+            border-radius: 0 8px 8px 0;
+            margin: 30px 0;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+        }
+
+        .verdict-list li {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1rem;
+            margin-bottom: 12px;
+            color: #4a4a4a;
+        }
+
+        .verdict-list li:last-child {
+            margin-bottom: 0;
+        }
+
+        .verdict-list strong {
+            color: #d63384;
+            display: inline-block;
+            width: 120px;
+        }
+
+        /* Footer styling */
+        footer {
+            margin-top: 60px;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.85rem;
+            color: #888;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            h1 { font-size: 2rem; }
+            h2 { font-size: 1.3rem; }
+            p { font-size: 1.05rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="blog-container">
+        
+        <header>
+            <span class="blog-category">High School Chronicles</span>
+            <h1>The Lockers, The Legend, and The Lip Gloss</h1>
+        </header>
+
+        <main>
+            <p class="intro">The hallway at North High was usually just a chaotic blur of slamming lockers and overpriced hoodies. But today, the air felt different. It felt… charged.</p>
+            
+            <p>Diamond stood by her locker, meticulously reapplying her <span class="highlight">"Cherry Bomb"</span> lip gloss. She wasn't just fixing her makeup; she was preparing for battle. Or, more accurately, she was preparing for Kevin.</p>
+
+            <h2>The Moment</h2>
+            <p>Kevin wasn't just any boy. He was the guy who could make a plain white T-shirt look like it belonged on a runway and the only person in the sophomore class who actually understood how to use a semi-colon. He was leaning against the water fountain, looking distractingly cool, when Diamond made her move.</p>
+            
+            <p>She didn't stumble. She didn't hesitate. She walked up, whispered something that made him laugh—that low, genuine laugh that everyone loved—and then it happened.</p>
+            
+            <p>It wasn't a movie moment with slow-motion birds flying by. It was better. It was real. Diamond leaned in, and for three seconds, the entire hallway went silent.</p>
+
+            <h2>The Aftermath</h2>
+            <p>When they pulled apart, Kevin had a tiny, unmistakable smudge of "Cherry Bomb" pink on his upper lip. He didn't even wipe it off. He just grinned, adjusted his backpack, and walked to Chemistry like he’d just won the lottery.</p>
+            
+            <p>Diamond, on the other hand, had to lean against the lockers for a second to catch her breath. Her phone was already buzzing in her pocket.</p>
+
+            <!-- Styled list for the quick-hitting final thoughts -->
+            <ul class="verdict-list">
+                <li><strong>The Sightings:</strong> At least four people had filmed it.</li>
+                <li><strong>The Verdict:</strong> By lunch, it was the only thing anyone was talking about.</li>
+                <li><strong>The Status:</strong> Legend.</li>
+            </ul>
+
+            <p>Diamond just smiled to herself. The gossip was going to be "Great Gossip" this week, and for once, she was the star of her own headline.</p>
+        </main>
+
+        <footer>
+            <p> The Friend-The best friend-And the Boyfriend</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>

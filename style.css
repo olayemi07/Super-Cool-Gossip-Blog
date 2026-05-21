@@ -1,0 +1,78 @@
+/* General Page Styles */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* A playful font */
+    background-color: #f0faff;
+    margin: 0;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background: url(Land_scape.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    border-bottom: 5px solid #ff9900;
+    color: #333;
+    height: 60vh;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: crimson;
+    
+}
+
+/* Layout Container */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Gist Cards */
+.gist-card {
+    background: white;
+    border: 4px solid #4CAF50;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 8px 8px 0px #bdf0c0; /* Thick "pop-art" shadow */
+    transition: transform 0.2s;
+}
+.gist-card img{
+    width: 100%;
+}
+
+.gist-card:hover {
+    transform: scale(1.05) rotate(2deg); /* Makes it bounce when hovered */
+}
+
+.emoji-icon {
+    font-size: 3rem;
+}
+
+.tag {
+    display: inline-block;
+    background: #e0f0ff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: #007bff;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+.lobster-two-bold-italic {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
